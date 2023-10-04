@@ -27,7 +27,7 @@ namespace EjerciciosPracticos1_JERH
         public void ImprecionMultiplicacion(int[] numeros)
         {
             for (int X = 0; X < numeros.Length; X++)
-                Console.WriteLine(X);
+                Console.WriteLine(numeros[X]);
             
         }
 
